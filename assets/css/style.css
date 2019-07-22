@@ -617,3 +617,15 @@ footer p {
   font-size: 90%;
   margin-top: 20px;
 }
+
+/* ------Animations------ */
+
+.js-wp-1 {
+  /* to hide on page load */
+  opacity: 0;
+}
+
+/* has the first class and the animated class at the same time */
+.js-wp-1.animated {
+  opacity: 1;
+}
