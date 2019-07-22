@@ -113,4 +113,21 @@ $(document).ready(function() {
       offset: "50%"
     }
   );
+
+  // Mobile nav
+  $(".js-nav-icon").click(function() {
+    // defined as a variable since it will be used multiple times
+    let nav = $(".main-nav");
+    let icon = $(".js-nav-icon i");
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass("ion-md-menu")) {
+      icon.addClass("ion-md-close");
+      icon.removeClass("ion-md-menu");
+    } else {
+      icon.addClass("ion-md-menu");
+      icon.removeClass("ion-md-close");
+    }
+  });
 });
