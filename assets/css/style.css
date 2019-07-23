@@ -193,9 +193,9 @@ header {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url(../images/hero.jpg);
+    url(../images/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/hero.jpg);
+    url(../images/hero-min.jpg);
   background-size: cover;
   background-position: center;
   /* sets the height of the header to be 100% of the viewport height */
@@ -420,9 +420,9 @@ header {
       from(rgba(0, 0, 0, 0.801)),
       to(rgba(0, 0, 0, 0.801))
     ),
-    url(../images/back-customers.jpg);
+    url(../images/back-customers-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801)),
-    url(../images/back-customers.jpg);
+    url(../images/back-customers-min.jpg);
   background-size: cover;
   color: #fff;
   background-attachment: fixed;
